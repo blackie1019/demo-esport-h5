@@ -1,0 +1,79 @@
+@theme {
+  --color-danger: var(--color-danger);
+  --color-live: var(--color-live);
+  --color-success: var(--color-success);
+  --color-warning: var(--color-warning);
+
+  --key-button-active: var(--color-button-active);
+  --key-button-inactive: var(--color-button-inactive);
+  --key-button-primary-purple: var(--color-button-primary-purple);
+  --key-button-quiz-white: var(--color-button-quiz-white);
+  --key-button-secondary-purple: var(--color-button-secondary-purple);
+  --key-button-tertiary: var(--color-button-tertiary);
+
+  --key-divider-dark: var(--color-divider-dark);
+  --key-divider-light: var(--color-divider-light);
+
+  --key-outline-green: var(--color-outline-green);
+  --key-outline-purple: var(--color-outline-purple);
+  --key-outline-white: var(--color-outline-white);
+  --key-outline-yellow: var(--color-outline-yellow);
+
+  --key-overlay-dark: var(--color-overlay-dark);
+  --key-overlay-light: var(--color-overlay-light);
+
+  --key-team-team-a: var(--color-team-team-a);
+  --key-team-team-b: var(--color-team-team-b);
+  --key-team-team-c: var(--color-team-team-c);
+
+  --key-text-accent-primary: var(--color-text-accent-primary);
+  --key-text-accent-secondary: var(--color-text-accent-secondary);
+  --key-text-grey: var(--color-text-grey);
+  --key-text-highlight-green: var(--color-text-highlight-green);
+  --key-text-highlight-yellow: var(--color-text-highlight-yellow);
+  --key-text-primary-purple: var(--color-text-primary-purple);
+  --key-text-primary-white: var(--color-text-primary-white);
+  --key-text-secondary-white: var(--color-text-secondary-white);
+  --key-text-tertiary: var(--color-text-tertiary);
+  --key-text-tertiary-2: var(--color-text-tertiary-2);
+
+  --key-background-coloured-blue: var(--color-background-coloured-blue);
+  --key-background-coloured-purple: var(--color-background-coloured-purple);
+  --key-background-globe: var(--color-background-globe);
+  --key-background-island: var(--color-background-island);
+  --key-background-on-island: var(--color-background-on-island);
+  --key-background-on-island-2: var(--color-background-on-island-2);
+  --key-background-secondary: var(--color-background-secondary);
+}
+
+@utility bg-* {
+  background-color: --value(--color- *);
+  background-color: --value(--key-background- *);
+}
+@utility bg-divider-* {
+  background-color: --value(--key-divider- *);
+}
+@utility border-* {
+  border-color: --value(--key-divider- *);
+}
+@utility divide-* {
+  :where(& > :not(:last-child)) {
+    border-color: --value(--key-divider- *);
+  }
+}
+@utility overlay-* {
+  background-color: --value(--key-overlay- *);
+}
+@utility outline-* {
+  border-color: --value(--key-outline- *);
+}
+@utility bg-outline-* {
+  background-color: --value(--key-outline- *);
+}
+@utility button-* {
+  background-color: --value(--key-button- *);
+}
+@utility text-* {
+  color: --value(--color- *);
+  color: --value(--key-text- *);
+}

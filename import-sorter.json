@@ -1,0 +1,14 @@
+{
+  "emptyLinesBetweenGroups": 0,
+  "groupRules": [
+    "^node:",
+    "^@(?!app)/",
+    {},
+    "^(@|#)app/",
+    "^[.](\\.|/.+)",
+    "\\./"
+  ],
+  "hasSemicolon": false,
+  "trailingComma": "none",
+  "wrappingStyle": "prettier"
+}

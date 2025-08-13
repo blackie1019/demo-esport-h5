@@ -1,0 +1,14 @@
+@layer theme, base, components, utilities;
+@import 'tailwindcss';
+@import './theme/colorSystem.css';
+
+html,
+body {
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+  /* user-select: none; */
+}
+
+#root {
+  @apply flex h-dvh w-full flex-col overflow-hidden;
+}
