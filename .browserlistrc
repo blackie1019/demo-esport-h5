@@ -1,0 +1,7 @@
+# fully supports es6 and fully supports es6-module and fully supports es6-module-dynamic-import and fully supports serviceworkers and fully supports css-variables and fully supports flexbox and fully supports css-grid
+# supports import.meta
+
+safari >= 11.1
+ios_saf >= 12
+chrome >= 64
+and_chr >= 133

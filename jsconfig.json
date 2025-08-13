@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "target": "es2020",
+    "paths": {
+      "@app/*": ["./src/*"]
+    }
+  },
+  "exclude": ["build", "node_modules"]
+}

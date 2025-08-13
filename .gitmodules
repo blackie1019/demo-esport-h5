@@ -1,0 +1,3 @@
+[submodule "static-resource"]
+	path = static-resource
+	url = git@gitlab.sb.rexbet.com:deliverables/clientsite/static-resource.git
