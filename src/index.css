@@ -1,6 +1,6 @@
 @layer theme, base, components, utilities;
 @import 'tailwindcss';
-@import './theme/colorSystem.css';
+@import './modules/theme/colorSystem.css';
 
 html,
 body {
