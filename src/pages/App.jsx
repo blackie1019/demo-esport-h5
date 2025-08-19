@@ -9,6 +9,7 @@ import {
 import Root from './common/Root'
 import RootErrorBoundary from './common/RootErrorBoundary'
 import ThemeProvider from '@app/modules/theme/ThemeProvider'
+import Background from '@app/shared/Background'
 
 const routes = createRoutesFromElements(
   <Route
@@ -18,7 +19,8 @@ const routes = createRoutesFromElements(
   >
     <Route index element={<Navigate to="home" replace />} />
     <Route path="home" lazy={() => import('./home/HomePage')} />
-
+    <Route path="setup" lazy={() => import('./setup/SetupPage')} />
+    <Route path="lobby" lazy={() => import('./lobby/LobbyPage')} />
     <Route path="error" lazy={() => import('./error/GeneralErrorPage')} />
     <Route
       path="unauthorized"
@@ -39,6 +41,7 @@ export default function Router() {
 
   return (
     <ThemeProvider>
+      <Background />
       <RouterProvider router={router} />
     </ThemeProvider>
   )
