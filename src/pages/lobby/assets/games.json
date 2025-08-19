@@ -1,0 +1,206 @@
+{
+  "favorite": [
+    {
+      "id": "g1",
+      "name": "反恐精英",
+      "cover": "./assets/image/g1.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g8",
+      "name": "絶地求生",
+      "cover": "../assets/image/g8.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g4",
+      "name": "守望先锋",
+      "cover": "../assets/image/g4.png",
+      "description": "遊戲描述"
+    }
+  ],
+  "hot": [
+    {
+      "id": "g1",
+      "name": "反恐精英",
+      "cover": "./image/g1.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g2",
+      "name": "刀塔2",
+      "cover": "./image/g2.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g3",
+      "name": "英雄联盟",
+      "cover": "./image/g3.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g4",
+      "name": "守望先锋",
+      "cover": "./image/g4.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g5",
+      "name": "星际大战2",
+      "cover": "./image/g5.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g6",
+      "name": "魔兽世界3",
+      "cover": "./image/g6.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g7",
+      "name": "王者荣耀",
+      "cover": "./image/g7.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g8",
+      "name": "絶地求生",
+      "cover": "./image/g8.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g9",
+      "name": "荒野乱斗",
+      "cover": "./image/g9.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g10",
+      "name": "无尽对决",
+      "cover": "./image/g10.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g11",
+      "name": "第五人格",
+      "cover": "./image/g11.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g12",
+      "name": "无畏契约",
+      "cover": "./image/g12.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g13",
+      "name": "宝可梦大集结",
+      "cover": "./image/g13.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g14",
+      "name": "炉石传说",
+      "cover": "./image/g14.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g15",
+      "name": "格斗天王",
+      "cover": "./image/g15.png",
+      "description": "遊戲描述"
+    }
+  ],
+  "eSport": [
+    {
+      "id": "g1",
+      "name": "反恐精英",
+      "cover": "./image/g1.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g2",
+      "name": "刀塔2",
+      "cover": "./image/g2.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g3",
+      "name": "英雄联盟",
+      "cover": "./image/g3.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g4",
+      "name": "守望先锋",
+      "cover": "./image/g4.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g5",
+      "name": "星际大战2",
+      "cover": "./image/g5.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g6",
+      "name": "魔兽世界3",
+      "cover": "./image/g6.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g7",
+      "name": "王者荣耀",
+      "cover": "./image/g7.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g8",
+      "name": "絶地求生",
+      "cover": "./image/g8.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g9",
+      "name": "荒野乱斗",
+      "cover": "./image/g9.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g10",
+      "name": "无尽对决",
+      "cover": "./image/g10.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g11",
+      "name": "第五人格",
+      "cover": "./image/g11.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g12",
+      "name": "无畏契约",
+      "cover": "./image/g12.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g13",
+      "name": "宝可梦大集结",
+      "cover": "./image/g13.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g14",
+      "name": "炉石传说",
+      "cover": "./image/g14.png",
+      "description": "遊戲描述"
+    },
+    {
+      "id": "g15",
+      "name": "格斗天王",
+      "cover": "./image/g15.png",
+      "description": "遊戲描述"
+    }
+  ]
+}
