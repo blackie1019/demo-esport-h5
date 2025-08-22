@@ -16,6 +16,7 @@
 
   --key-outline-green: var(--color-outline-green);
   --key-outline-purple: var(--color-outline-purple);
+  --key-outline-purple-secondary: var(--color-text-accent-primary);
   --key-outline-white: var(--color-outline-white);
   --key-outline-yellow: var(--color-outline-yellow);
 
@@ -47,33 +48,33 @@
 }
 
 @utility bg-* {
-  background-color: --value(--color- *);
-  background-color: --value(--key-background- *);
+  background-color: --value(--color-*);
+  background-color: --value(--key-background-*);
 }
 @utility bg-divider-* {
-  background-color: --value(--key-divider- *);
+  background-color: --value(--key-divider-*);
 }
 @utility border-* {
-  border-color: --value(--key-divider- *);
+  border-color: --value(--key-divider-*);
 }
 @utility divide-* {
   :where(& > :not(:last-child)) {
-    border-color: --value(--key-divider- *);
+    border-color: --value(--key-divider-*);
   }
 }
 @utility overlay-* {
-  background-color: --value(--key-overlay- *);
+  background-color: --value(--key-overlay-*);
 }
 @utility outline-* {
-  border-color: --value(--key-outline- *);
+  border-color: --value(--key-outline-*);
 }
 @utility bg-outline-* {
-  background-color: --value(--key-outline- *);
+  background-color: --value(--key-outline-*);
 }
 @utility button-* {
-  background-color: --value(--key-button- *);
+  background-color: --value(--key-button-*);
 }
 @utility text-* {
-  color: --value(--color- *);
-  color: --value(--key-text- *);
+  color: --value(--color-*);
+  color: --value(--key-text-*);
 }

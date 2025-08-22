@@ -1,0 +1,74 @@
+[
+  {
+    "id": "markets",
+    "label": "竞猜",
+    "tabs": [
+      {
+        "id": "all",
+        "label": "全部"
+      },
+      {
+        "id": "win",
+        "label": "胜负"
+      },
+      {
+        "id": "handicap",
+        "label": "让分"
+      },
+      {
+        "id": "size",
+        "label": "大小"
+      },
+      {
+        "id": "score",
+        "label": "比分"
+      }
+    ]
+  },
+  {
+    "id": "info",
+    "label": "资讯",
+    "tabs": [
+      {
+        "id": "streaming",
+        "label": "直播"
+      },
+      {
+        "id": "video",
+        "label": "视频"
+      },
+      {
+        "id": "news",
+        "label": "新闻"
+      }
+    ]
+  },
+  {
+    "id": "datas",
+    "label": "数据",
+    "tabs": [
+      {
+        "id": "situation",
+        "label": "赛况"
+      },
+      {
+        "id": "analysis",
+        "label": "分析"
+      }
+    ]
+  },
+  {
+    "id": "comments",
+    "label": "热议",
+    "tabs": [
+      {
+        "id": "chat",
+        "label": "聊天"
+      },
+      {
+        "id": "activity",
+        "label": "动态"
+      }
+    ]
+  }
+]

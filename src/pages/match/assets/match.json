@@ -1,0 +1,214 @@
+{
+  "rankNo": 1,
+  "icon": "other.png",
+  "nameAlias": "CS:GO EWC",
+  "nameAliasPinyin": "CS:GO EWC",
+  "code": 36,
+  "id": 1429026,
+  "leagueName": "CS:GO - 电竞世界杯",
+  "dateMatch": "2025-09-30T01:20:00+08:00",
+  "matchGroupTypeCode": 1,
+  "subGroupCode": 300,
+  "subGroupName": "电子竞技",
+  "sportCode": 36,
+  "sportName": "CS 2",
+  "matchType": 1,
+  "liveStatus": 1,
+  "groundType": false,
+  "periodKey": "",
+  "period": "",
+  "inPlayTimer": "",
+  "marketCount": 15,
+  "name": "2025年电竞世界杯",
+  "homeLeagueName": "NIN",
+  "awayLeagueName": "MOU",
+  "homeName": "NIN",
+  "awayName": "HER",
+  "homeDisplayScore": "",
+  "awayDisplayScore": "",
+  "homeFullTimeScore": "",
+  "awayFullTimeScore": "",
+  "homeFirstHalfScore": "",
+  "awayFirstHalfScore": "",
+  "homeDisplayRedCardScore": "",
+  "awayDisplayRedCardScore": "",
+  "homeExtraTimeOfFullTimeScore": "",
+  "awayExtraTimeOfFullTimeScore": "",
+  "homePenaltyShootoutScore": "",
+  "awayPenaltyShootoutScore": "",
+  "homeId": 177798,
+  "awayId": 228324,
+  "homeRankNo": 14,
+  "awayRankNo": 1,
+  "homeRefNo": "",
+  "awayRefNo": "",
+  "homeLeagueIcon": "g2hel.png",
+  "homeIcon": "ninjasinpyjamas.png",
+  "awayLeagueIcon": "mouz.png",
+  "awayIcon": "heroic.png",
+  "markets": [
+    {
+      "marketTypeName": "总局 独赢盘",
+      "specifierValues": [],
+      "marketTypeCode": 13,
+      "marketScore": "",
+      "selections": [
+        {
+          "id": "594383088",
+          "name": "主胜",
+          "odds": "1.83",
+          "score": "",
+          "handicap": null,
+          "handicapDisplay": "",
+          "status": 1,
+          "liveStatus": 1,
+          "selectionType": {
+            "code": 1
+          },
+          "rankNo": 1,
+          "groupId": "1403760070948298753",
+          "formatOddsType": 1,
+          "formatOdds": "1.83"
+        },
+        {
+          "id": "594383089",
+          "name": "客胜",
+          "odds": "1.83",
+          "score": "",
+          "handicap": null,
+          "handicapDisplay": "",
+          "status": 1,
+          "liveStatus": 1,
+          "selectionType": {
+            "code": 2
+          },
+          "rankNo": 2,
+          "groupId": "1403760070948298753",
+          "formatOddsType": 1,
+          "formatOdds": "1.83"
+        }
+      ],
+      "rankNo": -1,
+      "bestGroupId": "0",
+      "isOutrightHandicap": false,
+      "isDisplayScore": false,
+      "isDisplayParticipantInfo": true,
+      "dateExpectedOpen": null,
+      "dateExpectedLock": null
+    },
+    {
+      "marketTypeName": "总局数 亚洲让分盘",
+      "specifierValues": [],
+      "marketTypeCode": 34,
+      "marketScore": "",
+      "selections": [
+        {
+          "id": "594383091",
+          "name": "-1/1.5",
+          "odds": "1.83",
+          "score": "",
+          "handicap": "1.50",
+          "handicapDisplay": "+1.5",
+          "status": 1,
+          "liveStatus": 1,
+          "selectionType": {
+            "code": 1
+          },
+          "rankNo": 1,
+          "groupId": "1403760070952493056",
+          "formatOddsType": 1,
+          "formatOdds": "1.83"
+        },
+        {
+          "id": "594383092",
+          "name": "+1/1.5",
+          "odds": "1.83",
+          "score": "",
+          "handicap": "-1.50",
+          "handicapDisplay": "-1.5",
+          "status": 1,
+          "liveStatus": 1,
+          "selectionType": {
+            "code": 2
+          },
+          "rankNo": 2,
+          "groupId": "1403760070952493056",
+          "formatOddsType": 1,
+          "formatOdds": "1.83"
+        }
+      ],
+      "rankNo": -1,
+      "bestGroupId": "1403760070952493056",
+      "isOutrightHandicap": false,
+      "isDisplayScore": false,
+      "dateExpectedOpen": null,
+      "isDisplayParticipantInfo": true,
+      "dateExpectedLock": null
+    },
+    {
+      "marketTypeName": "总局数 大小盘",
+      "specifierValues": [],
+      "marketTypeCode": 35,
+      "marketScore": "",
+      "selections": [
+        {
+          "id": "596424571",
+          "name": "大 45.5",
+          "odds": "1.83",
+          "score": "",
+          "handicap": "2.50",
+          "handicapDisplay": "2.5",
+          "status": 1,
+          "liveStatus": 1,
+          "selectionType": {
+            "code": 4
+          },
+          "rankNo": 1,
+          "groupId": "1406150748479180801",
+          "formatOddsType": 1,
+          "formatOdds": "1.83"
+        },
+        {
+          "id": "596424570",
+          "name": "小 45.5",
+          "odds": "1.83",
+          "score": "",
+          "handicap": "2.50",
+          "handicapDisplay": "2.5",
+          "status": 1,
+          "liveStatus": 1,
+          "selectionType": {
+            "code": 5
+          },
+          "rankNo": 2,
+          "groupId": "1406150748479180801",
+          "formatOddsType": 1,
+          "formatOdds": "1.83"
+        }
+      ],
+      "rankNo": -1,
+      "bestGroupId": "1406150748479180801",
+      "isOutrightHandicap": false,
+      "isDisplayScore": false,
+      "dateExpectedOpen": null,
+      "isDisplayParticipantInfo": false,
+      "dateExpectedLock": null
+    }
+  ],
+  "matchdayParticipants": [],
+  "referenceId": 0,
+  "widgetInfo": {
+    "hasSituation": false,
+    "hasLineup": false,
+    "hasAnimation": false,
+    "hasStreaming": false,
+    "hasAnalysis": false,
+    "homeJerseyColor": "",
+    "awayJerseyColor": ""
+  },
+  "scoreBoard": {
+    "homeDisplayScore": "",
+    "awayDisplayScore": "",
+    "matchFactors": []
+  }
+}

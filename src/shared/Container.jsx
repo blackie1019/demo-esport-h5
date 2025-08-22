@@ -1,6 +1,13 @@
-function Container({ children }) {
+import clsx from 'clsx'
+
+function Container({ children, className }) {
   return (
-    <div className="flex h-[100%] w-[100%] flex-col items-center justify-start overflow-scroll px-[0.94rem]">
+    <div
+      className={clsx(
+        'hide-scrollbar z-20 flex w-[100%] flex-col items-center justify-start overflow-x-hidden px-[0.94rem]',
+        className
+      )}
+    >
       {children}
     </div>
   )

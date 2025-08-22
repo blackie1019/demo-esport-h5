@@ -34,7 +34,7 @@ export default function ThemeProvider({ children }) {
 
     document
       .querySelector('meta[name="theme-color"]')
-      ?.setAttribute('content', isDarkMode ? '#000' : '#fff')
+      ?.setAttribute('content', isDarkMode ? '#0d0712' : '#0d0712')
 
     document.documentElement.classList.toggle('dark', isDarkMode)
   }, [isDarkMode])
