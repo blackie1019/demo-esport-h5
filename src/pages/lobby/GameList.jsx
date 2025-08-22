@@ -2,9 +2,11 @@ import { useEffect, useRef, useCallback } from 'react'
 import games from './assets/games.json'
 import { getGameImage } from './assets/image/gameImage'
 import { clsx } from 'clsx'
+import { useNavigate } from 'react-router'
 
 function GameItem({ game, isFavorite }) {
   const img = getGameImage(game.id)
+  const navigate = useNavigate()
   return (
     <div className="flex h-[5.03125rem] w-[5.28125rem] flex-1 shrink-0 items-center justify-center rounded-[0.3125rem] border-[0.936px] border-[#30254D] bg-[linear-gradient(205deg,rgba(22,16,33,0)_-64.06%,#160F20_72.08%)] backdrop-blur-[4.6784px]">
       <div
@@ -12,6 +14,7 @@ function GameItem({ game, isFavorite }) {
           'relative flex h-full w-full flex-1 shrink-0 items-center justify-center rounded-[0.3125rem] border-2 outline-offset-[-2px]',
           isFavorite ? 'outline-green' : 'outline-purple'
         )}
+        onClick={() => navigate(`/matches`)}
       >
         <img
           className="h-full w-full flex-1 shrink-0 rounded-[0.3125rem] object-cover"

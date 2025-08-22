@@ -10,10 +10,13 @@ body {
   font-size: calc(100vw / 24.875);
   scrollbar-width: none;
   -ms-overflow-style: none;
+  background-color: var(--color-background-globe);
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 #root {
-  @apply flex h-dvh w-full flex-col overflow-hidden;
+  @apply relative isolate flex h-dvh w-full flex-col overflow-hidden;
 }
 
 .hide-scrollbar::-webkit-scrollbar {

@@ -1,4 +1,4 @@
-import { Fragment } from 'react'
+import { Fragment, useEffect } from 'react'
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -21,6 +21,8 @@ const routes = createRoutesFromElements(
     <Route path="home" lazy={() => import('./home/HomePage')} />
     <Route path="setup" lazy={() => import('./setup/SetupPage')} />
     <Route path="lobby" lazy={() => import('./lobby/LobbyPage')} />
+    <Route path="matches" lazy={() => import('./matches/Matches')} />
+    <Route path="match" lazy={() => import('./match/Match')} />
     <Route path="error" lazy={() => import('./error/GeneralErrorPage')} />
     <Route
       path="unauthorized"

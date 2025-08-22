@@ -1,0 +1,46 @@
+[
+  {
+    "id": "s1",
+    "cover": "",
+    "href": "#",
+    "isOfficial": true,
+    "desc": "决胜赛即将开打，TOP1究竟花落谁家，听职业哥怎么选！",
+    "hostName": "CSGO赛事主频道",
+    "hostAvatar": "a1",
+    "playbackTimes": 12700,
+    "commentsCount": 127
+  },
+  {
+    "id": "s2",
+    "cover": "",
+    "href": "#",
+    "isOfficial": false,
+    "desc": "决胜赛即将开打，TOP1究竟花落谁家，听职业哥怎么选！",
+    "hostName": "万里挑一",
+    "hostAvatar": "a2",
+    "playbackTimes": 12700,
+    "commentsCount": 127
+  },
+  {
+    "id": "s3",
+    "cover": "",
+    "href": "#",
+    "isOfficial": false,
+    "desc": "决胜赛即将开打，TOP1究竟花落谁家，听职业哥怎么选！",
+    "hostName": "万里挑一",
+    "hostAvatar": "a2",
+    "playbackTimes": 12700,
+    "commentsCount": 127
+  },
+  {
+    "id": "s4",
+    "cover": "",
+    "href": "#",
+    "isOfficial": false,
+    "desc": "决胜赛即将开打，TOP1究竟花落谁家，听职业哥怎么选！",
+    "hostName": "万里挑一",
+    "hostAvatar": "a2",
+    "playbackTimes": 12700,
+    "commentsCount": 127
+  }
+]

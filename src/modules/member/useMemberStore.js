@@ -14,5 +14,19 @@ export const useMemberStore = create(set => ({
     }),
   nickname: '',
   setNickname: nickname => set({ nickname }),
-  clearNickname: () => set({ nickname: '' })
+  clearNickname: () => set({ nickname: '' }),
+  favoriteLeaguesMarkets: [],
+  addFavoriteLeaguesMarkets: favoriteLeaguesMarkets =>
+    set(s => ({
+      favoriteLeaguesMarkets: [
+        ...s.favoriteLeaguesMarkets,
+        favoriteLeaguesMarkets
+      ]
+    })),
+  removeFavoriteLeaguesMarkets: favoriteLeaguesMarkets =>
+    set(s => ({
+      favoriteLeaguesMarkets: s.favoriteLeaguesMarkets.filter(
+        f => f.marketTypeCode !== favoriteLeaguesMarkets.marketTypeCode
+      )
+    }))
 }))
