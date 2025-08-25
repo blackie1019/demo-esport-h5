@@ -1,4 +1,4 @@
-import { Fragment, useEffect } from 'react'
+import { Fragment } from 'react'
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -10,6 +10,9 @@ import Root from './common/Root'
 import RootErrorBoundary from './common/RootErrorBoundary'
 import ThemeProvider from '@app/modules/theme/ThemeProvider'
 import Background from '@app/shared/Background'
+import SceneRoot from '@app/modules/pixi/SceneRoot'
+import BetSlipRoot from '@app/modules/pixi/BetSlipRoot'
+import '@app/utils/extension.js'
 
 const routes = createRoutesFromElements(
   <Route
@@ -43,8 +46,12 @@ export default function Router() {
 
   return (
     <ThemeProvider>
-      <Background />
-      <RouterProvider router={router} />
+      <SceneRoot />
+      <BetSlipRoot />
+      <div className="relative isolate z-[1] flex h-dvh w-full flex-col overflow-hidden">
+        <Background />
+        <RouterProvider router={router} />
+      </div>
     </ThemeProvider>
   )
 }
