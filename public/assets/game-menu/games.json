@@ -1,0 +1,14 @@
+[
+  { "name": "反恐精英", "categoryCode": 1 },
+  { "name": "絕地求生", "categoryCode": 1 },
+  { "name": "守望先鋒", "categoryCode": 1 },
+  { "name": "反恐精英", "categoryCode": 2 },
+  { "name": "刀塔2", "categoryCode": 2 },
+  { "name": "英雄聯盟", "categoryCode": 2 },
+  { "name": "守望先鋒", "categoryCode": 3 },
+  { "name": "星際大戰2", "categoryCode": 3 },
+  { "name": "魔獸世界3", "categoryCode": 3 },
+  { "name": "王者榮耀", "categoryCode": 4 },
+  { "name": "絕地求生", "categoryCode": 4 },
+  { "name": "英雄聯盟", "categoryCode": 4 }
+]
