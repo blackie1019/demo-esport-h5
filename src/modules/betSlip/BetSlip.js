@@ -5,6 +5,11 @@ import betSlipStore from '@app/modules/betSlip/store.js'
 import { BET_SLIP_MODE } from '@app/modules/betSlip/constants.js'
 import theme from '@app/modules/theme/theme.js'
 import { groupTexts, createTextWithCircle } from '@app/utils/pixi/text.js'
+import {
+  bounceAnimation,
+  slideInAnimation,
+  slideOutAnimation
+} from '@app/utils/pixi/animation.js'
 
 const SETTING = {
   ...BASE_SETTING,
@@ -30,7 +35,10 @@ export default class BetSlip extends Container {
       (next, prev) => {
         if (!prev || next.selections !== prev.selections) {
           this.selections = next.selections
-          this.render()
+          this.render({
+            slideIn: prev.selections.length === 0 && next.selections.length > 0,
+            slideOut: prev.selections.length > 0 && next.selections.length === 0
+          })
         }
       }
     )
@@ -38,18 +46,33 @@ export default class BetSlip extends Container {
     this.render()
   }
 
-  render() {
-    if (this.selections.length === 0) {
-      this.clearContainer()
-      return
-    }
+  render({ slideIn = false, slideOut = false } = {}) {
+    // 清除原本的內容，才開始 render 新的
+    this.clearContainer()
+
     let container
     switch (this.mode) {
       case BET_SLIP_MODE.MINI:
       case BET_SLIP_MODE.FULL:
-      case BET_SLIP_MODE.QUICK:
+      case BET_SLIP_MODE.QUICK: {
         container = this.renderMini()
+        if (slideIn) {
+          slideInAnimation(container, {
+            from: 'bottom',
+            distance: SETTING.MINI_BET_SLIP_HEIGHT
+          })
+        }
+        if (slideOut) {
+          slideOutAnimation(container, {
+            to: 'bottom',
+            distance: SETTING.MINI_BET_SLIP_HEIGHT,
+            onComplete: () => {
+              this.clearContainer()
+            }
+          })
+        }
         break
+      }
     }
 
     // 呼叫 resize 調整 canvas 大小
@@ -59,6 +82,10 @@ export default class BetSlip extends Container {
   renderMini() {
     const container = new Container()
     this.addChild(container)
+
+    if (this.selections.length === 0) {
+      return container
+    }
 
     const bg = new Graphics()
       .roundRect4(0, 0, window.innerWidth, SETTING.MINI_BET_SLIP_HEIGHT, {
@@ -86,6 +113,7 @@ export default class BetSlip extends Container {
       },
       theme.textAccentSecondary
     )
+    bounceAnimation(selectionCount)
 
     const textContainer = groupTexts(text, selectionCount)
     textContainer.position.set(window.innerWidth / 2, 30)
@@ -95,7 +123,7 @@ export default class BetSlip extends Container {
       text: '▲',
       style: {
         fontSize: 14,
-        fill: theme.textPrimaryWhite
+        fill: theme.textTertiary
       }
     })
 
@@ -107,6 +135,7 @@ export default class BetSlip extends Container {
     container.on('pointertap', () => {
       betSlipStore.getState().removeSelection()
     })
+
     return container
   }
 
