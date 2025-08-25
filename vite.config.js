@@ -43,6 +43,13 @@ export default defineConfig({
     svgrPlugin(),
     topLevelAwaitPlugin()
   ].filter(Boolean),
+  css: {
+    preprocessorOptions: {
+      scss: {
+        includePaths: ["node_modules"],
+      },
+    },
+  },
   build: {
     target: browserslistToEsbuild(),
     outDir: 'build',
